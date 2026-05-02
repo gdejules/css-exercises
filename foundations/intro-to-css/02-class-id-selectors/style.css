@@ -1,1 +1,25 @@
 /* Add CSS Styling */
+.odd {
+  background-color: pink;
+  color: black;
+  font-family:
+    Verdana,
+    DejaVu Sans,
+    Tahoma,
+    sans-serif;
+  font-size: 18px;
+}
+#two {
+  color: #0000ff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 36px;
+}
+.odd.cooler {
+  font-size: 24px;
+}
+#four {
+  background-color: lightgreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 700;
+}
