@@ -1,1 +1,15 @@
 /* Add CSS Styling */
+.primary,
+.secondary {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+.primary {
+  background-color: rgb(47, 39, 39);
+  color: rgb(228, 219, 219);
+}
+.secondary {
+  background-color: yellowgreen;
+  color: black;
+}
