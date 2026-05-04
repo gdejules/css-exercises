@@ -1,14 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* apply flex layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* apply flex layout to header, footer, and content */
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 10px;
+  /* dealing with pesky list and link styles*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* apply flex layout to content section */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer {
+  background-color: #eee;
 }
 
 img {
   width: 600px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
 }
 
 button {
@@ -16,6 +60,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* styling button */
+  padding: 6px 16px;
 }
 
 input {
